@@ -1,0 +1,18 @@
+
+penis = Vector3.new(x,y,z)
+ 
+LP.Character.RightHand.Size = penis
+ 
+LP.Character.RightHand.Transparency = 1
+local selectionBox = Instance.new("SelectionBox",LP.Character.RightHand)
+selectionBox.Adornee = LP.Character.RightHand
+selectionBox.Color3 = Color3.new(1,0,0)
+ 
+LP.Character.LeftHand.Size = penis
+LP.Character.BodyEffects.SpecialParts.LeftHand.Size = penis
+ 
+LP.Character.LeftHand.Transparency = 1
+local selectionBox = Instance.new("SelectionBox",LP.Character.LeftHand)
+selectionBox.Adornee = LP.Character.LeftHand
+	selectionBox.Color3 = Color3.new(1,0,0)
+end)
